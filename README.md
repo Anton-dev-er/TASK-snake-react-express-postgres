@@ -9,4 +9,4 @@ Snake Game Instructions for playing:
   --You can cross the border. --
   --You lose if you hit yourself. --
   --To win you have to fill the whole field. --
-  --There are also 3 types of units that give you 1 5 and 10 points.--
+  --There are also 3 types of feeds that give you 1 5 and 10 points.--
