@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS player (
+    id SERIAL PRIMARY KEY,
+    username TEXT NOT NULL UNIQUE
+    );
+
+CREATE TABLE IF NOT EXISTS game  (
+    id SERIAL PRIMARY KEY,
+    score INTEGER NOT NULL,
+    player_id INTEGER NOT NULL,
+    FOREIGN KEY (player_id) REFERENCES player (id)
+);
